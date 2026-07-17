@@ -96,7 +96,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: snraju98/frontend:4.0.0
+        image: snraju98/frontend:v1
         volumeMounts:
         - name: nginx-config
           mountPath: /etc/nginx/nginx.conf
