@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: snraju98/catalogue:4.0.0
+        image: snraju98/catalogue:v1
         envFrom:
         - configMapRef:
             name: catalogue
