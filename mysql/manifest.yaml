@@ -55,5 +55,5 @@ spec:
     component: mysql
   ports:
     - protocol: TCP
-      port: 3306 # service port
+      port: 3306 # service port 
       targetPort: 3306 # container port
